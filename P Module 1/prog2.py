@@ -1,8 +1,7 @@
-name=input("Enter your name:")
-year=input("Enter your year of birth:")
-print(name)
-print(year)
-if year>=1966:
-    print("You are a senior citizen")
-else :
-    print("You are not a senior citizen")
+# 2. Using filter() – Even Numbers
+# Program to filter even numbers using filter()
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
+
+print("Even Numbers:", even_numbers)
